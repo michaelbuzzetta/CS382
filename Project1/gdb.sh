@@ -1,0 +1,1 @@
+gdb-multiarch --nh -q a.out -ex 'set disassemble-next-line on' -ex 'target remote :1234' -ex 'set solib-search-path /usr/aarch64-linux-gnu/lib/' -ex 'layout regs'
